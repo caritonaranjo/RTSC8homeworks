@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(12, 10, 10);
+}
+p{
+    color: rgba(21, 94, 21, 0.596);
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+h1 {
+    color: blanchedalmond;
+}
+
+.punto-dos{
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+    margin: 20px;
+    padding: 10px;
+
+}
+.punto-cuatro img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+.punto-cuatro{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+.punto-cinco{
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    padding: 10px;
+}
