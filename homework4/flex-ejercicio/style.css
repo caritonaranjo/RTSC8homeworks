@@ -2,23 +2,26 @@ body{
     background-color: whitesmoke;
 }
 .card-container{
-    background-color: #ffffff;
+    background-color: blue;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: auto;
-    width: 1280px;
+    width: 1800px;
 
 }
 .card_item{
     background-color: greenyellow;
     border: 10px solid #eee;
-    flex-grow: 1;
+    margin: 5px;
     flex-basis: 300px;
-    min-height: 200px;
+   min-height: 200px;
+   min-width: 100px;
     margin-bottom: 20px;
     
 }
-.card-mas_grande{
+.card_item-bigger{
+    flex-basis: 600px;
     
 }
